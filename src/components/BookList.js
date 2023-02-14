@@ -9,9 +9,9 @@ export default function BookList({books}) {
   return (
     <div className='book-list'>
         <ul>
-            {books.map(book=>{
+            {books.map(book=>(
                 <li key={book.id} onClick={()=>handleClick(book.id)}>{book.title}</li>
-            })}
+            ))}
         </ul>
     </div>
   )
