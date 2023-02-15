@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import BookForm from '../components/BookForm'
 import BookList from '../components/BookList'
-import { db } from '../firebase/config'
-import { collection, getDocs } from 'firebase/firestore'
 import { useCollection } from '../hooks/useCollection'
 
 export default function Home() {
