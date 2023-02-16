@@ -17,8 +17,8 @@ export default function Login() {
 
   return (
     <div>
-        <h2>Giriş Yap</h2>
         <form onSubmit={handleSubmit}>
+            <h2>Giriş Yap</h2>
             <label>
                 <span>Email Adresiniz :</span>
                 <input required type="email" onChange={(e)=>setEmail(e.target.value)}

@@ -23,11 +23,10 @@ export default function BookForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-        <label>
-            <span>Yeni Kitap Ekle</span>
-            <input required type="text" value={newBook} onChange={(e)=>setNewBook(e.target.value)}/>
+        <label>Yeni Kitap Ekle: &nbsp;
+          <input required type="text" value={newBook} onChange={(e)=>setNewBook(e.target.value)}/>
+          <button style={{marginLeft:"10px"}}>EKLE</button>
         </label>
-        <button>EKLE</button>
     </form>
   )
 }

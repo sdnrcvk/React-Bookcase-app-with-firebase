@@ -17,7 +17,7 @@ export default function BookList({books}) {
         <ul>
             {books.map(book=>(
                 <li key={book.id}>{book.title}
-                <button onClick={()=>handleClick(book.id)} style={{float:"right"}}>Sil</button>
+                <button onClick={()=>handleClick(book.id)} style={{float:"right"}}>SİL</button>
                 </li>
             ))}
         </ul>

@@ -10,7 +10,7 @@ body{
 }
 
 nav{
-  background: #ea8685;
+  background: #6b0d53;
   padding: 10px 20px;
   color: #fff;
   display: flex;
@@ -39,7 +39,7 @@ nav a{
 .book-list li{
   list-style-type: none;
   padding: 10px;
-  background: #778ca3;
+  background: #757988;
   margin: 10px 0;
   cursor: pointer;
   color: white;
@@ -56,10 +56,16 @@ input{
 }
 
 button{
-  background: #ea8685;
+  background: #6b0d53;
   color: #fff;
   border: 0;
   padding: 6px 8px;
   cursor: pointer;
   border-radius:5px;
+}
+
+form{
+  text-align: center;
+  border: #757988 solid;
+  padding: 10px;
 }

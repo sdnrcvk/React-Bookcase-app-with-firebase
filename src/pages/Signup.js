@@ -16,8 +16,8 @@ export default function Signup() {
 
   return (
     <div>
-        <h2>Üye Ol</h2>
         <form onSubmit={handleSubmit}>
+            <h2>Üye Ol</h2>
             <label>
                 <span>Email Adresiniz :</span>
                 <input required type="email" onChange={(e)=>setEmail(e.target.value)}
